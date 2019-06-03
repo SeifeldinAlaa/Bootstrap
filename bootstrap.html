@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,120 +17,222 @@
 
 
 <style>
-    .border{position: relative;
+    .border {
+        position: relative;
+        left: 80px;
+        top: 80px;
+        text-decoration-line: none;
+        color: #7952b3;
+        border-color: #7952b3;
+        border: 1px solid;
+        padding: 15px;
+        border-radius: .3rem;
+        font-weight: 600;
+        font-size: 20px;
+    }
     
-    left:80px;
-    top:80px;
-    text-decoration-line: none;
-    color:#7952b3;
-    border-color:#7952b3;
-    border: 1px solid;
-    padding:15px;
-  
-    border-radius: .3rem; font-weight: 600; font-size: 20px;}
-    .border:hover{color:white; background-color: #7952b3; 
-    transition: 0.5s; border-radius: .3rem; border-color:#7952b3;
-    border: 1px solid; text-decoration-line: none;}
-    .border2{position: relative;
-        border-radius: .3rem; font-weight: 600; font-size: 20px;
-    left:80px;
-    top:80px;
-    text-decoration-line: none;
-    color:#7952b3;
-    border-color:#7952b3;
-    border: 1px solid;
-    padding:15px;} 
-    .border2:hover{color:white; background-color: gray; 
-    transition: 0.5s; border-radius: .3rem; border-color:#7952b3;
-    border: 1px solid; text-decoration-line: none;}
-div{background-color: #563d7c;
-width: 120%;
-height: 55px;
-position: relative;
-color: white;
-}
-
-.home:hover{color:white;
-}
-.img{
-float: right;
-width: 200px;
-height: 200px;}
-.myh1{font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
-color: #7952b3;
-position: relative;
-left: 250px;
-top:25px;
-font-size: calc(1.525rem + 3.3vw);
-}
-.a2{position:relative; left: 40px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none;}
-.a2:hover{color:white;
-text-decoration-line: none;}
-.a3{position:relative; left: 50px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none;}
-.a3:hover{color:white;
-text-decoration-line: none;}
-.a4{position:relative; left: 60px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none;}
-.a4:hover{color:white;
-text-decoration-line: none;}
-.a5{position:relative; left: 70px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none;}
-.a5:hover{color:white;
-text-decoration-line: none;}
-.a6{position:relative; left: 80px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none;}
-.a6:hover{color:white;
-text-decoration-line: none;}
-.a7{position:relative; left: 870px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none; top:5px;}
-.a7:hover{color:white;
-text-decoration-line: none;}
-.a11{font-weight: 600;
-    color: #ffe484;
-    border-color: #ffe484;
-    position: relative;
-    left: 1015px;
-    border: 1px solid;
-    padding: 7px;
-    border-radius: .25rem;}
-    .a11:hover{background-color: #ffe484;
-    text-decoration-line: none;
-    color: black;
-    transition: 0.5s;}
-
+    .border:hover {
+        color: white;
+        background-color: #7952b3;
+        transition: 0.5s;
+        border-radius: .3rem;
+        border-color: #7952b3;
+        border: 1px solid;
+        text-decoration-line: none;
+    }
+    
+    .border2 {
+        position: relative;
+        border-radius: .3rem;
+        font-weight: 600;
+        font-size: 20px;
+        left: 80px;
+        top: 80px;
+        text-decoration-line: none;
+        color: #7952b3;
+        border-color: #7952b3;
+        border: 1px solid;
+        padding: 15px;
+    }
+    
+    .border2:hover {
+        color: white;
+        background-color: gray;
+        transition: 0.5s;
+        border-radius: .3rem;
+        border-color: #7952b3;
+        border: 1px solid;
+        text-decoration-line: none;
+    }
+    
+    div {
+        background-color: #563d7c;
+        width: 120%;
+        height: 55px;
+        position: relative;
+        color: white;
+    }
+    
+    .home:hover {
+        color: white;
+    }
+    
+    .img {
+        float: right;
+        width: 200px;
+        height: 200px;
+    }
+    
+    .myh1 {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        color: #7952b3;
+        position: relative;
+        left: 250px;
+        top: 25px;
+        font-size: calc(1.525rem + 3.3vw);
+    }
+    
+    .a2 {
+        position: relative;
+        left: 40px;
+        color: #cbbde2;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 20px;
+        text-decoration-line: none;
+    }
+    
+    .a2:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    
+    .a3 {
+        position: relative;
+        left: 50px;
+        color: #cbbde2;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 20px;
+        text-decoration-line: none;
+    }
+    
+    .a3:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    
+    .a4 {
+        position: relative;
+        left: 60px;
+        color: #cbbde2;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 20px;
+        text-decoration-line: none;
+    }
+    
+    .a4:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    
+    .a5 {
+        position: relative;
+        left: 70px;
+        color: #cbbde2;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 20px;
+        text-decoration-line: none;
+    }
+    
+    .a5:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    
+    .a6 {
+        position: relative;
+        left: 80px;
+        color: #cbbde2;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 20px;
+        text-decoration-line: none;
+    }
+    
+    .a6:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    
+    .a7 {
+        position: relative;
+        left: 870px;
+        color: #cbbde2;
+        font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+        font-size: 20px;
+        text-decoration-line: none;
+        top: 5px;
+    }
+    
+    .a7:hover {
+        color: white;
+        text-decoration-line: none;
+    }
+    
+    .a11 {
+        font-weight: 600;
+        color: #ffe484;
+        border-color: #ffe484;
+        position: relative;
+        left: 1015px;
+        border: 1px solid;
+        padding: 7px;
+        border-radius: .25rem;
+    }
+    
+    .a11:hover {
+        background-color: #ffe484;
+        text-decoration-line: none;
+        color: black;
+        transition: 0.5s;
+    }
 </style>
+
 <body>
- <div><a href="#" style="border: 1px solid; position: relative; left:20px; top: 20px; color: #fff;     font-size: 30px; padding: 5px; position: relative; top:7px; left: 17px; border-radius: 5px; text-decoration-line: none; " class="svg.d-block" title="Bootstrap" >B</a>
-<a style="position:relative; left: 30px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none; color: white;"  href="#" >Home</a>
-<a href="#" class="a2" >Documentation</a>
-<a href="#" class="a3" >Examples</a>
-<a href="#" class="a4" >Themes</a>
-<a href="#" class="a5" >Expo</a>
-<a href="#" class="a6" >Blog</a>
-<a href="#" class="a7" >v4.3 <i class="icon-down-dir"></i></a>
-<a href="#" class="a11" >Download</a>
-<a style="position:relative; left: 800px;" href="#" title="GitHub"><span style="color:rgb(185, 184, 184); font-size: 16px;" class=" icon-github-circled"></span></a>
-<a style="position:relative; left: 800px;" href="#" title="Twitter"><span style="color:rgb(185, 184, 184); font-size: 16px;" class=" icon-twitter-1"></span></a>
-<a style="position:relative; left: 805px;" href="#" title="Slack"><span style="color: #563d7c; font-size: 13px; background-color: rgb(185, 184, 184); border-radius: 80%;" class=" icon-slack"></span></a>
-<a style="position:relative; left: 805px;" href="#" title="Slack"><span style="color: #563d7c; font-size: 13px;  " class=" navbar-nav-svg"></span></a>
-</div>   
+    <div><a href="#" style="border: 1px solid; position: relative; left:20px; top: 20px; color: #fff;     font-size: 30px; padding: 5px; position: relative; top:7px; left: 17px; border-radius: 5px; text-decoration-line: none; " class="svg.d-block" title="Bootstrap">B</a>
+        <a style="position:relative; left: 30px; color: #cbbde2; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; font-size: 20px; text-decoration-line: none; color: white;"
+            href="#">Home</a>
+        <a href="#" class="a2">Documentation</a>
+        <a href="#" class="a3">Examples</a>
+        <a href="#" class="a4">Themes</a>
+        <a href="#" class="a5">Expo</a>
+        <a href="#" class="a6">Blog</a>
+        <a href="#" class="a7">v4.3 <i class="icon-down-dir"></i></a>
+        <a href="#" class="a11">Download</a>
+        <a style="position:relative; left: 800px;" href="#" title="GitHub"><span style="color:rgb(185, 184, 184); font-size: 16px;" class=" icon-github-circled"></span></a>
+        <a style="position:relative; left: 800px;" href="#" title="Twitter"><span style="color:rgb(185, 184, 184); font-size: 16px;" class=" icon-twitter-1"></span></a>
+        <a style="position:relative; left: 805px;" href="#" title="Slack"><span style="color: #563d7c; font-size: 13px; background-color: rgb(185, 184, 184); border-radius: 80%;" class=" icon-slack"></span></a>
+        <a style="position:relative; left: 805px;" href="#" title="Slack"><span style="color: #563d7c; font-size: 13px;  " class=" navbar-nav-svg"></span></a>
+    </div>
 
 
 
 
 
 
-<h1  class="myh1"   >Bootstrap</h1>
-<p style="    font-size: 20px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; position: relative; left: 40px; top: 30px;">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library.
-
-    Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
-
-
-
-   
-<a href="#" class="border">Get started</a>
-<a href="#" class="border2">Download</a>
+    <h1 class="myh1">Bootstrap</h1>
+    <p style="    font-size: 20px; font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji; position: relative; left: 40px; top: 30px;">Build responsive, mobile-first projects on the web with the world’s most popular front-end component library. Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our
+        Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.</p>
 
 
 
-<img style="float:right; position:relative; right:300px; width:450px; top:70px;" src="bootstrap_logo.jpg">
 
-<p style="position:relative; top:115px; left:80px; color: #6c757d!important;">Currently v4.3.1</p>
+    <a href="#" class="border">Get started</a>
+    <a href="#" class="border2">Download</a>
+
+
+
+    <img style="float:right; position:relative; right:300px; width:450px; top:70px;" src="bootstrap_logo.jpg">
+
+    <p style="position:relative; top:115px; left:80px; color: #6c757d!important;">Currently v4.3.1</p>
 </body>
+
 </html>
